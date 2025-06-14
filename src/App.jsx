@@ -13,6 +13,7 @@ function App() {
       <Navbar />
       <div className="pt-20"></div>
       <Routes>        
+        <Route path="https://adprasad1996.github.io/PrasadPortFolio/" element={<Home/>}/>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
